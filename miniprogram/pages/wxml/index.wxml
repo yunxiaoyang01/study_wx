@@ -1,0 +1,32 @@
+<!--一个简单的文本标签 -->
+<text>hello world</text>
+
+<!-- view 中包含了 text 标签 -->
+<view>
+  <text>hello world</text>
+</view>
+<view>
+  <image class="userinfo-avatar" src="https://ts1.cn.mm.bing.net/th?id=OIP-C.Rmu2HNfPTot9nN9kWt0dbgHaNK&w=187&h=333&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" ></image>
+</view>
+<text>当前时间：{{time}}</text>
+<view>{{var1}}</view>
+<view>{{var2}}</view>
+<view>{{var3}}</view>
+<view>{{var4}}</view>
+<view>
+  <text>{{a === 10? "变量 a 等于10":"变量 a 不等于10"}}</text>
+</view>
+<text>{{a+b}}+{{c}}+d</text>
+<view>
+  {{"hello "+name}}
+</view>
+<text>{{[1,2,3]}}</text>
+
+<view wx:if="{{length > 5}}"> 1 </view>
+<view wx:elif="{{length > 2}}"> 2 </view>
+<view wx:else> 3 </view>
+
+<block wx:if="{{length > 5}}">
+  <view> view1 </view>
+  <view> view2 </view>
+</block>
