@@ -1,0 +1,23 @@
+/*
+1 定义less变量
+*/
+@color: yellow;
+
+text {
+    color: @color;
+}
+
+view {
+    .vie1 {
+        text {
+            color: red;
+        }
+    }
+}
+
+
+@import "../../styles/reset.less";
+
+view {
+    color: @themeColor ;
+}

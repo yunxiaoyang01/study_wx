@@ -1,0 +1,5 @@
+<!-- pages/cart/cart.wxml -->
+<input type="text" bindinput="handleInput" />
+<button bindtap="handleTap" data-operator="{{1}}">+</button>
+<button bindtap="handleTap" data-operator="{{-1}}">-</button>
+<view>{{num}}</view>

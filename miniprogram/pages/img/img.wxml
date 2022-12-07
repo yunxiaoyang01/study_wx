@@ -1,0 +1,8 @@
+<!-- pages/img/img.wxml -->
+<view data-num="{{num}}">自定义属性</view>
+<view>
+    <checkbox checked="{{isChecked}}"></checkbox>
+</view>
+<view>
+    <view hidden="{{false}}">hidden</view>
+</view>

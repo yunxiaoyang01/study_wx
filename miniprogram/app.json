@@ -1,15 +1,55 @@
 {
   "pages": [
-    "pages/wxml/index",
+    "pages/demo07/demo07", 
+    "pages/demo04/demo04",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/img/img",
+    "pages/mine/mine",
+    "pages/cart/cart",
+    "pages/logs/logs",
+    "pages/wxml/index",
+    "pages/third/third"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#0094ff",
     "navigationBarTitleText": "恋家",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0094ff"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/all.png",
+        "selectedIconPath": "icon/all.png"
+      },
+      {
+        "pagePath": "pages/img/img",
+        "text": "图标",
+        "iconPath": "icon/pic.png",
+        "selectedIconPath": "icon/pic.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "icon/cart- full.png",
+        "selectedIconPath": "icon/cart- full.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "icon/bussiness-man.png",
+        "selectedIconPath": "icon/bussiness-man.png"
+      }
+    ],
+    "color": "#0094ff",
+    "selectedColor": "#ff9400",
+    "backgroundColor": "#ff5533",
+    "position": "bottom"
+  }
 }
