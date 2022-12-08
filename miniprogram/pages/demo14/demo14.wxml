@@ -1,0 +1,13 @@
+<!-- 小程序中的字体图标
+    1 type 图标的类型
+    success|success_no_circle|info|warn|waiting|cancel|download|searchsearch|clear
+    2 size 大小
+    3 color 图标的颜色 -->
+<icon type="success" size="60" color="yellow"></icon>
+<icon type="success_no_circle" size="23" color=""></icon>
+<icon type="info" size="23" color=""></icon>
+<icon type="warn" size="23" color=""></icon>
+<icon type="waiting" size="23" color=""></icon>
+<icon type="cancel" size="23" color=""></icon>
+<icon type="search" size="23" color=""></icon>
+<icon type="clear" size="23" color=""></icon>

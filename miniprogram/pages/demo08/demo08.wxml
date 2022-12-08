@@ -1,0 +1,2 @@
+<!-- pages/demo08/demo08.wxml -->
+<text selectable="{{true}}" decode="{{true}}">text &nbsp; ssssdfsf</text>

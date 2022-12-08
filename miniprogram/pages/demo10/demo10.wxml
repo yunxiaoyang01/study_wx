@@ -1,0 +1,17 @@
+<!-- 1 轮播图外层容器 swipper
+    2 每一个轮播项 swiper-item 
+    3 swiper标签 存在默认样式
+        1 width 100%
+        2 height 150px
+        2 swiper 高度 无法实现由内容撑开 -->
+<swiper autoplay="{{true}}" interval="1000" circular="{{true}}" indicator-dots="{{true}}" indicator-color="#0094ff" indicator-active-color="#ff0094">
+    <swiper-item>
+        <image src="http://gw.alicdn.com/bao/uploaded/i2/143779470/O1CN01eS4mQa2JpJKkMNsP9_!!143779470.jpg_320x320q90.jpg_.webp" />
+    </swiper-item>
+    <swiper-item>
+        <image src="http://gw.alicdn.com/bao/uploaded/i1/TB1Ygf9hhSYBuNjSsphSuvGvVXa.jpg_320x320q90.jpg_.webp" />
+    </swiper-item>
+    <swiper-item>
+        <image src="http://gw.alicdn.com/bao/uploaded/i2/1696193171/O1CN01vltD0V1ZIMVqAIure_!!0-item_pic.jpg_320x320q90.jpg_.webp" />
+    </swiper-item>
+</swiper>

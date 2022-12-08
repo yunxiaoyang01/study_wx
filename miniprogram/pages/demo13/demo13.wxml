@@ -1,0 +1,28 @@
+<!-- button 标签
+    1 外观的属性
+        1 size 控制按钮的大小 
+        2 type 控制按钮的样式类型 -->
+<button size="mini">mini默认按钮</button>
+<button>默认按钮</button>
+<button type="primary">绿色按钮</button>
+<button type="primary" loading="{{true}}">loading绿色按钮</button>
+<button type="warn">红色按钮</button>
+<button type="warn" plain>plain 红色按钮</button>
+<!-- button 开放能力
+    open-type
+        1 contact	打开客服会话，如果用户在会话中点击消息卡片后返回小程序，可以从 bindcontact 回调中获得具体信息，具体说明 （*小程序插件中不能使用*）	
+        2   share	触发用户转发，使用前建议先阅读使用指引	
+        3   getPhoneNumber	获取用户手机号，可以从 bindgetphonenumber 回调中获取到用户信息，具体说明 （*小程序插件中不能使用*）	
+        4   getUserInfo	获取用户信息，可以从 bindgetuserinfo 回调中获取到用户信息 （*小程序插件中不能使用*）	
+        5   launchApp	打开APP，可以通过 app-parameter 属性设定向 APP 传的参数具体说明	
+        6   openSetting	打开授权设置页	
+        7   feedback	打开"意见反馈"页面，用户可提交反馈内容并上传日志，开发者可以登录小程序管理后台后进入左侧菜单"客服反馈"页面获取到反馈内容	
+        8   chooseAvatar	获取用户头像，可以从 bindchooseavatar 回调中获取到头像信息 -->
+<button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button>
+<button open-type="chooseAvatar">chooseAvatar</button>
